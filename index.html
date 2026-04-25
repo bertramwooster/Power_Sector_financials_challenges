@@ -214,7 +214,7 @@
                 let interest = curDebt * 0.075;
                 curDebt += (deficit > 0 ? deficit : 0); // Accumulate debt
 
-                data.push({ year: y, purchase: p, labor: l, revenue: r, interest: interest, budget: b, type: 'projection' });
+                data.push({ year: y, purchase: p, labor: l, revenue: r, interest: interest, budget: budget, type: 'projection' });
             }
             return data;
         }
