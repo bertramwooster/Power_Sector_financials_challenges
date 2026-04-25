@@ -45,7 +45,7 @@ $$\eta_b = \frac{E_{billed}}{E_{input}}$$
 $$\eta_c = \frac{R_{realized}}{R_{billed}}$$
 
 **Aggregate Technical & Commercial (AT&C) Loss:** The total financial leakage.
-$$L_{AT\&C} = 1 - (\eta_b \times \eta_c)$$
+$$L_{\text{AT\&C}} = 1 - (\eta_b \times \eta_c)$$
 
 ---
 
@@ -86,4 +86,4 @@ $$L_{new} = (W_{DF} \times L_{DF}) + (W_{State} \times L_{State})$$
 
 **2. Conditional Pre-Paid Metering:**
 If grid upgrades are only funded for areas that switch to smart pre-paid meters, collection efficiency ($\eta_c$) is forced to 100%. This restricts the maximum possible loss strictly to the physical heat loss in the wires ($\eta_b$).
-$$L_{AT\&C} = 1 - (\eta_b \times 1.0) = 1 - \eta_b$$
+$$L_{\text{AT\&C}} = 1 - (\eta_b \times 1.0) = 1 - \eta_b$$
